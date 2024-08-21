@@ -17,7 +17,7 @@
         @endif
     </div>
     <h1>Edit a Product</h1>
-    <form method="post" action="{{route('product.update', ['product' => $product])}}">
+    <form method="post " action="{{route('product.update', ['product' => $product])}}">
         @csrf
         @method('put')
         <div>
